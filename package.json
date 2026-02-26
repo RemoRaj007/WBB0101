@@ -1,4 +1,13 @@
 {
+  "name": "ndrsc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd NDRSC_FRONTEND && npm install && npm run build",
+    "deploy": "npm run build && npx wrangler deploy"
+  }
+}
+{
   "name": "wbb0101-deploy",
   "private": true,
   "version": "1.0.0",
