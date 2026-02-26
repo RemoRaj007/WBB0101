@@ -1,0 +1,379 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.env
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging
+
+# Build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.log
+prisma/*.db
+prisma/*.sqlite
+database.sqlite
+
+# Uploads and temp files
+uploads/
+temp/
+tmp/
+*.tmp
+*.temp
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+reports/
+test-results/
+junit.xml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# React/Next.js specific
+.next/
+out/
+build/
+*.css.map
+*.js.map
+.eslintcache
+
+# Node specific
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# Secret keys
+*.pem
+*.key
+*.crt
+*.p12
+secrets/
+
+# Backend specific
+pid.log
+pidfile.txt
+dump.rdb
+*.rdb
+
+# Docker
+*.pid
+docker-compose.override.yml
+.dockerignore
+Dockerfile
+*.docker
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Excel/CSV data files (if they contain sensitive data)
+*.xlsx
+*.xls
+*.csv
+!data/sample/*.csv
+!data/sample/*.xlsx
+
+# Python (if used for scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package manager specific
+# Yarn 2+ specific
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# NestJS specific
+.nest/
+
+# Nuxt.js
+.nuxt/
+.nuxt-dist/
+
+# Gatsby
+.cache/
+public/
+
+# Vue
+vue-project/
+
+# Angular
+# compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Storybook
+storybook-static/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Sentry Config File
+.sentryclirc
+
+# Serverless
+.serverless/
+
+# FuseBox
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env.test
+.env.production
+.env.local
+
+# parcel-bundler cache
+.parcel-cache/
+
+# Next.js build output
+.next
+
+# Nuxt.js build output
+.nuxt
+
+# Gatsby build output
+public
+
+# Storybook build output
+storybook-static
+
+# rollup.js
+dist/
+
+# vite
+dist
+
+# Serverless directories
+.serverless/
+
+# MySQL files
+*.mysql
+*.mysqldump
+
+# PostgreSQL files
+*.psql
+*.pgdump
+*.backup
+
+# Redis dump
+dump.rdb
+
+# Application specific
+# Add your application specific files here
+public/uploads/*
+public/images/uploads/*
+storage/
+temp/
+cache/
+
+# Environment specific
+config/local.js
+config/development.js
+config/production.js
+config/staging.js
+config/test.js
+config/custom-environment-variables.json
+
+# Certificates
+certs/
+*.pem
+*.key
+*.crt
+*.csr
+
+# SSH keys
+*.pem
+id_rsa
+id_dsa
+*.p12
+*.pfx
+
+# API keys
+apikeys.json
+credentials.json
+service-account.json
+*.service-account.json
+
+# IDE settings
+.idea/
+.vscode/
+*.sublime-*
+.project
+.classpath
+.settings/
+*.launch
+
+# Test coverage
+coverage/
+.nyc_output/
+reports/
+test-results/
+junit.xml
+test-results.xml
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Database seeds (if they contain sensitive data)
+seeds/*.sql
+seeds/*.json
+!seeds/sample-data.sql
+!seeds/development-data.sql
+
+# Uploaded files
+uploads/
+public/uploads/
+storage/uploads/
+temp_uploads/
+tmp_uploads/
+
+# Cache files
+.cache/
+.temp/
+.tmp/
+*.cache
+
+# PID files
+*.pid
+*.pid.lock
+
+# Library files
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Native addon builds
+*.node
+build/Release/
+
+# Generated files
+gen/
+generated/
+dist/
+build/
+out/
+
+# TypeScript declaration files
+*.d.ts
+!src/**/*.d.ts
+
+# Optional: Keep empty directories
+**/.gitkeep
+!.gitkeep
+
+# Optional: Keep sample data
+!sample-data/
+!example-data/
+!test-data/
+
+# Personal config files
+*.local
+*.local.*
+personal/
+private/
+
+# Custom rules for your project
+# Add any project-specific ignores below
