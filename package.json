@@ -2,8 +2,12 @@
   "name": "ndrsc",
   "version": "1.0.0",
   "private": true,
+  "workspaces": [
+    "data_collect/NDRSC_FRONTEND"
+  ],
   "scripts": {
-    "build": "cd NDRSC_FRONTEND && npm install && npm run build",
+    "build": "npm run build -w data_collect/NDRSC_FRONTEND",
     "deploy": "npm run build && npx wrangler deploy"
   }
 }
+
