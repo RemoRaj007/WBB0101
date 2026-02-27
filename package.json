@@ -2,17 +2,11 @@
   "name": "ndrsc",
   "version": "1.0.0",
   "private": true,
+  "description": "National Disaster Relief Services Center - Full-stack disaster relief system",
   "scripts": {
-    "build": "cd NDRSC_FRONTEND && npm install && npm run build",
-    "deploy": "npm run build && npx wrangler deploy"
-  }
-}
-{
-  "name": "wbb0101-deploy",
-  "private": true,
-  "version": "1.0.0",
-  "scripts": {
-    "deploy": "wrangler deploy"
+    "build": "cd data_collect/NDRSC_FRONTEND && npm install && npm run build",
+    "deploy": "npm run build && npx wrangler deploy",
+    "dev": "wrangler dev"
   },
   "devDependencies": {
     "wrangler": "4.68.1"
