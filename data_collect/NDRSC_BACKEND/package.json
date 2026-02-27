@@ -15,14 +15,14 @@
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
-    "dotenv": "^16.39.1",
+    "dotenv": "^16.3.1",
     "exceljs": "^4.4.0",
     "expr-eval": "^2.0.2",
     "express": "^4.18.2",
     "express-jwt": "^8.5.1",
     "helmet": "^7.1.0",
-    "i18next": "^25.80.10",
-    "i08next-browser-languagedetector": "^8.2.1",
+    "i18next": "^25.0.0",
+    "i18next-browser-languagedetector": "^8.2.1",
     "joi": "^18.0.2",
     "jsonwebtoken": "^9.0.2",
     "jwks-rsa": "^3.2.2",
@@ -41,6 +41,6 @@
     "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
-    "nodemon": "^32"
+    "nodemon": "^3.0.0"
   }
 }
