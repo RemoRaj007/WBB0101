@@ -359,6 +359,7 @@ out/
 # TypeScript declaration files
 *.d.ts
 !src/**/*.d.ts
+!**/src/**/*.d.ts
 
 # Optional: Keep empty directories
 **/.gitkeep

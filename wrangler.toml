@@ -2,7 +2,7 @@ name = "ndrsc"
 compatibility_date = "2025-02-01"
 
 [assets]
-directory = "./NDRSC_FRONTEND/dist"
+directory = "./data_collect/NDRSC_FRONTEND/dist"
 
 [build]
-command = "cd NDRSC_FRONTEND && npm install && npm run build"
+command = "cd data_collect/NDRSC_FRONTEND && npm install && npm run build"
